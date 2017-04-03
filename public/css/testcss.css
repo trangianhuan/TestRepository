@@ -1,0 +1,105 @@
+.push-to-bottom {  	
+	position: absolute;
+	display: table-cell;
+}
+.mg-left{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.mg-top10{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.fontBlack{
+	color: #000000;
+}
+.padLef{
+	padding-left: 15px;
+}
+.bg-gray{
+	background-color: #eeeeee;	
+}
+.tableClass{
+	border: 1px ;
+}
+.content {
+    /* TODO set a width and height here */
+    position: relative;
+}
+
+.wrapper2 {
+    position: absolute;
+    left: 50%; top: 50%; /*move the object to the center of the parent object*/
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /*these 5 settings change the base (or registration) point of the wrapper object to it's own center - so we align child center with parent center*/
+}
+
+.table{
+	table-layout: fixed;
+	margin: 0 auto;
+    max-width: 700px;
+    margin-top: 50px;
+}
+pre{
+	line-height: 1;
+	margin:0px 5px 0px 5px;
+	padding: 0px 0px 0px 5px;
+}
+td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+input,select{
+	height: 26px;
+}
+.width90{
+	width: 90%;
+}
+.p-top10{
+	padding-top: 10px;
+}
+body{
+	background-color: #FDFDFD
+}
+.text-white{
+	color: #ffffff;
+}
+navbar-nav > a{
+	text-decoration: none !important;
+	color: #ffffff;
+}
+.navbar-nav > li > a {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 28px; 
+    color: #fff !important; 
+}
+.navbar {
+	min-height:28px !important;	
+}
+.navbar-default{
+	background-color: #234567;
+	border: 0px;
+	margin-bottom: 0px;	
+}
+.navbar-nav > .active > a, 
+.navbar-nav > .active > a:hover, 
+.navbar-nav > .active > a:focus {
+      color: #000 !important;
+      background: #fff !important;
+ }
+.titleTicked{
+	font-weight: bold;
+	padding: 0px 0px 5px 15px;
+	font-size: 24px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
